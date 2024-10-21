@@ -1,0 +1,53 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Sorting visualiser</h1>
+    <button id="generate">generate random</button>
+    <button id="sort">sort</button>
+    <div id="container"></div>
+
+    <script src="index.js"/>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Sorting Visualizer</h1>
+
+    <!-- Dropdown to select sorting algorithm -->
+    <label for="algorithm">Choose a sorting algorithm:</label>
+    <select id="algorithm">
+        <option value="bubble">Bubble Sort</option>
+        <option value="selection">Selection Sort</option>
+        <option value="insertion">Insertion Sort</option>
+        <option value="quick">Quick Sort</option>
+    </select>
+
+    <br><br>
+
+    <button id="generate">Generate Random Array</button>
+    <button id="sort">Sort</button>
+
+<!-- 
+    <label for="speedRange">Sorting Speed:</label>
+<input type="range" id="speedRange" min="5000" max="10000" value="7000" step="50">
+<span id="speedDisplay">300ms</span> -->
+
+
+    <div id="container"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>

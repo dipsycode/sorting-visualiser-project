@@ -1,0 +1,95 @@
+/* Styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1c1c1e; /* Dark background */
+    color: #f4f4f9; /* Light text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Heading style */
+h1 {
+    font-size: 2.5rem;
+    color: #e0e0e0; /* Light gray for the heading */
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+/* Container for the sorting visualizer */
+#container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 70vh;
+    width: 80vw; /* Slightly smaller width for a centered look */
+    background-color: #2b2b2b; /* Darker gray for the array container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7); /* Dark shadow for more depth */
+    margin-bottom: 30px;
+}
+
+/* Styling for the array elements */
+.arrayelements {
+    display: inline-block;
+    width: 10px;
+    background-color: #00bfa6; /* Teal for a neon-like contrast */
+    border-radius: 2px;
+    margin: 0 1px;
+    padding: 0;
+}
+
+/* Button styles */
+button {
+    background-color: #0077b6; /* Dark blue for the buttons */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for buttons */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #023e8a; /* Darker blue on hover */
+}
+
+/* Dropdown (Select) styling */
+select {
+    padding: 10px;
+    font-size: 1rem;
+    margin: 10px;
+    border: 2px solid #0077b6;
+    border-radius: 5px;
+    background-color: #333; /* Dark background for dropdown */
+    color: #f4f4f9; /* Light text color */
+}
+
+/* Center the form elements */
+label, select, button {
+    display: inline-block;
+    text-align: center;
+}
+
+/* Overall page container */
+body > * {
+    max-width: 80vw;
+}
+
+/* Make sure body takes full height */
+html, body {
+    height: 100%;
+}
+
